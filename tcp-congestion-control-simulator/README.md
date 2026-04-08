@@ -45,3 +45,5 @@ It demonstrates how the congestion window (cwnd) evolves over time under normal 
 ```bash
 pip install matplotlib
 python main.py
+
+![Output](output.png)

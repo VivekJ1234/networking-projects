@@ -58,13 +58,13 @@ tahoe = simulate_tahoe()
 print("\n----------------------------\n")
 reno = simulate_reno()
 
-# ------------------ Metrics ------------------
+#  Metrics 
 print("\n=== Performance Comparison ===")
 print("Average cwnd (Tahoe):", sum(tahoe) / len(tahoe))
 print("Average cwnd (Reno):", sum(reno) / len(reno))
 
 
-# ------------------ Plot ------------------
+#  Plot 
 plt.plot(tahoe, label="TCP Tahoe", marker='o')
 plt.plot(reno, label="TCP Reno", marker='x')
 
